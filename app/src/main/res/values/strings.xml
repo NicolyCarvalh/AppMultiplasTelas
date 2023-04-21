@@ -4,6 +4,7 @@
     <string name="btCadastro">CADASTRO</string>
     <string name="btSobre">SOBRE</string>
     <string name="btVoltar">VOLTAR</string>
+    <string name="btSalvar">SALVAR</string>
     <string name="tiUsuario"></string>
     <string name="tiSenha"></string>
     <string name="btEntrar">ENTRAR</string>
