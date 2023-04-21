@@ -1,3 +1,8 @@
 <resources>
     <string name="app_name">AppMultiplasTelas</string>
+    <string name="btLogin">LOGIN</string>
+    <string name="btCadastro">CADASTRO</string>
+    <string name="btSobre">SOBRE</string>
+    <string name="btVoltar">VOLTAR</string>
+
 </resources>

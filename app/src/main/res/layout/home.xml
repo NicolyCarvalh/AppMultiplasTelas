@@ -5,12 +5,6 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent">
 
-    <androidx.constraintlayout.widget.ConstraintLayout
-        android:layout_width="match_parent"
-        android:layout_height="match_parent">
-
-    </androidx.constraintlayout.widget.ConstraintLayout>
-
     <TextView
         android:id="@+id/textView"
         android:layout_width="213dp"
@@ -23,26 +17,27 @@
         tools:layout_editor_absoluteY="99dp" />
 
     <Button
-        android:id="@+id/button"
-        android:layout_width="142dp"
-        android:layout_height="61dp"
-        android:text="LOGIN"
-        tools:layout_editor_absoluteX="134dp"
-        tools:layout_editor_absoluteY="237dp" />
+        android:id="@+id/btLogin"
+        android:layout_width="150dp"
+        android:layout_height="65dp"
+        android:text="@string/btLogin"
+        tools:layout_editor_absoluteX="129dp"
+        tools:layout_editor_absoluteY="245dp" />
 
     <Button
-        android:id="@+id/button2"
-        android:layout_width="142dp"
-        android:layout_height="61dp"
-        android:text="SOBRE"
-        tools:layout_editor_absoluteX="134dp"
-        tools:layout_editor_absoluteY="480dp" />
+        android:id="@+id/btCadastro"
+        android:layout_width="150dp"
+        android:layout_height="65dp"
+        android:text="@string/btCadastro"
+        tools:layout_editor_absoluteX="130dp"
+        tools:layout_editor_absoluteY="397dp" />
 
     <Button
-        android:id="@+id/button3"
-        android:layout_width="142dp"
-        android:layout_height="61dp"
-        android:text="CADASTRO"
-        tools:layout_editor_absoluteX="132dp"
-        tools:layout_editor_absoluteY="361dp" />
+        android:id="@+id/btSobre"
+        android:layout_width="150dp"
+        android:layout_height="65dp"
+        android:text="@string/btSobre"
+        tools:layout_editor_absoluteX="130dp"
+        tools:layout_editor_absoluteY="543dp" />
+
 </androidx.constraintlayout.widget.ConstraintLayout>
