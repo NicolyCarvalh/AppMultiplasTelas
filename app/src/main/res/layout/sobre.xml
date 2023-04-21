@@ -1,43 +1,36 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:orientation="vertical"
     tools:context=".Sobre">
 
-    <TextView
-        android:id="@+id/textView13"
-        android:layout_width="341dp"
-        android:layout_height="113dp"
-        android:text="APLICATIVO DESENVOLVIDO PELAS ALUNAS NATHALIA DOS SANTOS AMARAL E NICOLY CARVALHO SIQUEIRA. PARA DISCIPLINA PROGRAMAÇÃO DE DISPOSITIVOS MÓVEIS."
-        android:textSize="14sp"
-        tools:layout_editor_absoluteX="35dp"
-        tools:layout_editor_absoluteY="357dp" />
+    <Button
+        android:id="@+id/btVoltar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/btVoltar" />
 
     <TextView
         android:id="@+id/textView12"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="SOBRE"
-        android:textSize="34sp"
-        tools:layout_editor_absoluteX="153dp"
-        tools:layout_editor_absoluteY="216dp" />
+        android:textSize="34sp" />
+
+    <TextView
+        android:id="@+id/textView13"
+        android:layout_width="341dp"
+        android:layout_height="113dp"
+        android:text="APLICATIVO DESENVOLVIDO PELAS ALUNAS NATHALIA DOS SANTOS AMARAL E NICOLY CARVALHO SIQUEIRA. PARA DISCIPLINA PROGRAMAÇÃO DE DISPOSITIVOS MÓVEIS."
+        android:textSize="14sp" />
 
     <Button
         android:id="@+id/button6"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="UFMS"
-        tools:layout_editor_absoluteX="161dp"
-        tools:layout_editor_absoluteY="563dp" />
+        android:text="UFMS" />
 
-    <Button
-        android:id="@+id/button8"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="VOLTAR"
-        tools:layout_editor_absoluteX="35dp"
-        tools:layout_editor_absoluteY="53dp" />
-
-</androidx.constraintlayout.widget.ConstraintLayout>
+</LinearLayout>
