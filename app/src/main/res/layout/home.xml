@@ -7,37 +7,40 @@
 
     <TextView
         android:id="@+id/textView"
-        android:layout_width="213dp"
-        android:layout_height="77dp"
+        android:layout_width="196dp"
+        android:layout_height="47dp"
         android:fontFamily="sans-serif-light"
         android:text="NAVEGADOR"
         android:textColor="#060A50"
         android:textSize="34sp"
-        tools:layout_editor_absoluteX="113dp"
-        tools:layout_editor_absoluteY="99dp" />
+        tools:layout_editor_absoluteX="107dp"
+        tools:layout_editor_absoluteY="104dp" />
 
     <Button
         android:id="@+id/btLogin"
         android:layout_width="150dp"
         android:layout_height="65dp"
+        android:onClick="clicarLogin"
         android:text="@string/btLogin"
-        tools:layout_editor_absoluteX="129dp"
-        tools:layout_editor_absoluteY="245dp" />
+        tools:layout_editor_absoluteX="130dp"
+        tools:layout_editor_absoluteY="220dp" />
 
     <Button
         android:id="@+id/btCadastro"
         android:layout_width="150dp"
         android:layout_height="65dp"
+        android:onClick="clicarCadastro"
         android:text="@string/btCadastro"
         tools:layout_editor_absoluteX="130dp"
-        tools:layout_editor_absoluteY="397dp" />
+        tools:layout_editor_absoluteY="358dp" />
 
     <Button
         android:id="@+id/btSobre"
         android:layout_width="150dp"
         android:layout_height="65dp"
+        android:onClick="clicarSobre"
         android:text="@string/btSobre"
         tools:layout_editor_absoluteX="130dp"
-        tools:layout_editor_absoluteY="543dp" />
+        tools:layout_editor_absoluteY="499dp" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

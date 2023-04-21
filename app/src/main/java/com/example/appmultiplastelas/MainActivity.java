@@ -19,21 +19,28 @@ public class MainActivity extends AppCompatActivity {
         btLogin = (Button) findViewById(R.id.btLogin);
         btCadastro = (Button) findViewById(R.id.btCadastro);
         btSobre = (Button) findViewById(R.id.btSobre);
-    }
 
-    public void telaLogin(View view) {
-        Intent intent = new Intent(this, Login.class);
-        startActivity(intent);
+        btLogin.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(getApplicationContext(), Login.class);
+                startActivity(intent);
+            }
+        });
+        btCadastro.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(getApplicationContext(), Cadastro.class);
+                startActivity(intent);
+            }
+        });
+        btSobre.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(getApplicationContext(), Sobre.class);
+                startActivity(intent);
+            }
+        });
     }
-
-    public void telaCadastro(View view){
-        Intent intent = new Intent(this, Cadastro.class);
-        startActivity(intent);
-    }
-
-    public void telaSobre(View view){
-        Intent intent = new Intent(this, Cadastro.class);
-        startActivity(intent);
-    }
-
 }
+
