@@ -6,5 +6,12 @@
     <string name="btVoltar">VOLTAR</string>
     <string name="tiUsuario"></string>
     <string name="tiSenha"></string>
-
+    <string name="btEntrar">ENTRAR</string>
+    <string name="etNome"></string>
+    <string name="etUsuario"></string>
+    <string name="etSenha"></string>
+    <string name="etDataNascimento"></string>
+    <string name="cbMasculino"></string>
+    <string name="cbFeminino"></string>
+    <string name="etTelefone"></string>
 </resources>
