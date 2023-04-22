@@ -1,5 +1,7 @@
 package com.example.appmultiplastelas;
 
+import static android.app.ProgressDialog.show;
+
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.content.Intent;
@@ -37,9 +39,9 @@ public class Login extends AppCompatActivity {
                 usuario = tiUsuario.getText().toString().trim();
                 senha = tiSenha.getText().toString().trim();
                 if (usuario.isEmpty() || senha.isEmpty()){
-                    Toast.makeText(this(), "login inválido. Preencha todos os campos")
+                    Toast.makeText(getApplicationContext(), "login inválido. Preencha todos os campos", Toast.LENGTH_SHORT).show();
                 }else{
-                    Toast.makeText(this(), "Login Efetuado!")
+                    Toast.makeText(getApplicationContext(), "Login Efetuado!", Toast.LENGTH_SHORT).show();
                 }
             }
         });
