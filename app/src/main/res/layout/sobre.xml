@@ -3,34 +3,61 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
-    android:layout_height="match_parent"
+    android:layout_height="70dp"
     android:orientation="vertical"
     tools:context=".Sobre">
 
-    <Button
-        android:id="@+id/btVoltar"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="@string/btVoltar" />
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="80dp">
 
-    <TextView
-        android:id="@+id/textView12"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="SOBRE"
-        android:textSize="34sp" />
+        <Button
+            android:id="@+id/btVoltar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="15dp"
+            android:layout_marginTop="15dp"
+            android:text="@string/btVoltar" />
+    </TableRow>
 
-    <TextView
-        android:id="@+id/textView13"
-        android:layout_width="341dp"
-        android:layout_height="113dp"
-        android:text="APLICATIVO DESENVOLVIDO PELAS ALUNAS NATHALIA DOS SANTOS AMARAL E NICOLY CARVALHO SIQUEIRA. PARA DISCIPLINA PROGRAMAÇÃO DE DISPOSITIVOS MÓVEIS."
-        android:textSize="14sp" />
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="80dp">
 
-    <Button
-        android:id="@+id/btUf"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="UFMS" />
+        <TextView
+            android:id="@+id/textView12"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="125dp"
+            android:layout_marginTop="15dp"
+            android:text="SOBRE"
+            android:textSize="34sp" />
+    </TableRow>
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="300dp">
+
+        <TextView
+            android:id="@+id/textView13"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="15dp"
+            android:layout_marginTop="15dp"
+            android:textSize="12sp" />
+    </TableRow>
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="80dp">
+
+        <Button
+            android:id="@+id/btUf"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="125dp"
+            android:layout_marginTop="15dp"
+            android:text="UFMS" />
+    </TableRow>
 
 </LinearLayout>

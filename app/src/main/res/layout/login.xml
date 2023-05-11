@@ -11,55 +11,88 @@
         android:layout_height="match_parent"
         android:orientation="vertical">
 
-        <Button
-            android:id="@+id/btVoltar"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="@string/btVoltar" />
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="80dp">
 
-        <TextView
-            android:id="@+id/textView2"
-            android:layout_width="400dp"
-            android:layout_height="wrap_content"
-            android:text="                  LOGIN"
-            android:textSize="34sp" />
+            <Button
+                android:id="@+id/btVoltar"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="20dp"
+                android:text="@string/btVoltar" />
+        </TableRow>
 
-        <TextView
-            android:id="@+id/textView3"
-            android:layout_width="202dp"
-            android:layout_height="wrap_content"
-            android:text="USUÁRIO" />
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="110dp">
 
-        <com.google.android.material.textfield.TextInputEditText
-            android:id="@+id/tiUsuario"
-            android:layout_width="210dp"
-            android:layout_height="39dp"
-            android:hint="@string/tiUsuario" />
+            <TextView
+                android:id="@+id/textView2"
+                android:layout_width="103dp"
+                android:layout_height="48dp"
+                android:layout_marginLeft="150dp"
+                android:layout_marginTop="25dp"
+                android:text="LOGIN"
+                android:textSize="34sp" />
+        </TableRow>
 
-        <TextView
-            android:id="@+id/textView4"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="SENHA" />
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="110dp">
 
-        <EditText
-            android:id="@+id/tiSenha"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:ems="10"
-            android:inputType="textPassword" />
+            <TextView
+                android:id="@+id/textView3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="15dp"
+                android:layout_marginTop="25dp"
+                android:text="USUÁRIO" />
 
-        <Button
-            android:id="@+id/btEntrar"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="@string/btEntrar" />
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/tiUsuario"
+                android:layout_width="286dp"
+                android:layout_height="39dp"
+                android:layout_marginLeft="15dp"
+                android:layout_marginTop="25dp"
+                android:hint="@string/tiUsuario" />
+        </TableRow>
 
-        <com.google.android.material.textfield.TextInputLayout
-            android:layout_width="228dp"
-            android:layout_height="29dp">
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="110dp">
 
-        </com.google.android.material.textfield.TextInputLayout>
+            <TextView
+                android:id="@+id/textView4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="15dp"
+                android:layout_marginTop="25dp"
+                android:text="SENHA" />
+
+            <EditText
+                android:id="@+id/tiSenha"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="15dp"
+                android:layout_marginTop="25dp"
+                android:ems="10"
+                android:inputType="textPassword" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="80dp">
+
+            <Button
+                android:id="@+id/btEntrar"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="150dp"
+                android:layout_marginTop="20dp"
+                android:text="@string/btEntrar" />
+        </TableRow>
 
     </LinearLayout>
 </androidx.constraintlayout.widget.ConstraintLayout>
