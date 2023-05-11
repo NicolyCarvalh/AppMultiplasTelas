@@ -1,5 +1,7 @@
 package com.example.appmultiplastelas;
 
+import static android.provider.Telephony.Mms.Part.TEXT;
+
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.content.Intent;
@@ -7,10 +9,12 @@ import android.os.Bundle;
 import android.util.Log;
 import android.view.View;
 import android.widget.Button;
+import android.widget.TextView;
 
 public class MainActivity extends AppCompatActivity {
 
     Button btLogin, btCadastro, btSobre;
+    TextView t;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -42,6 +46,19 @@ public class MainActivity extends AppCompatActivity {
                 startActivity(intent);
             }
         });
+
+        if (savedInstanceState != null) {
+            String text = savedInstanceState.getString(TEXT);
+            t.setText(text);
+        }
+    }
+
+    private static final String TEXT = "texto";
+    @Override
+    protected void onSaveInstanceState(Bundle outState) {
+        super.onSaveInstanceState(outState);
+        String text = t.getText().toString();
+        outState.putString(TEXT, text);
     }
 
     protected void onStart(){
